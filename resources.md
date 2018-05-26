@@ -2,7 +2,7 @@
 layout: page
 title: Resources for Jekyll
 ---
-# {{page.title}}
+## {{page.title}}
 
 A list of some good resources to help with Jekyll
 
