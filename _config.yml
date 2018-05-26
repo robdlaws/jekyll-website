@@ -1,0 +1,29 @@
+# Site settings
+title: Practice Jekyll Site
+tagline: Working with the jekyll ssg system
+email: bobcobb@net.com
+description: >
+  Practice website using the Jekyll SSG engine and 
+  will form the basis for a portfolio projects website
+baseurl: "/jekyll-website"
+url: "https://robdlaws.github.io/jekyll-website"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+# Pagination
+paginate: 3
+paginate_path: '/blog/page:num/'
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: false
+
+sass:
+  sass_dir: _sass
+  style: compact
+
+# Posts
+permalink: /blog/:title
+future: true
+
+plugins: [jekyll-paginate]
