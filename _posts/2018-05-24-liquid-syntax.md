@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Using Liquid Syntax"
+title: "Using Liquid Syntax with Jekyll"
 date: 2018-05-24 16:25:00
 categories: blog
 tag: [blog,jekyll]
 excerpt_separator: <!-- more -->
 ---
-## Some Good Information
+## {{page.title}}
 
 {: .intro}
 Find more information [here](http://www.google.com "google"). Occaecat velit et duis aliqua nisi id in **cupidatat** dolor ipsum elit *voluptate*. Quis sint mollit irure consequat quis dolor Lorem Lorem laborum ut veniam irure. Deserunt aute pariatur exercitation occaecat cillum eiusmod anim Lorem ex consectetur nostrud. Duis adipisicing esse laboris pariatur anim consectetur.<!-- more -->
